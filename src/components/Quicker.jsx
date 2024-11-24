@@ -6,7 +6,7 @@ function Quicker({ className }) {
       <h2 className='text-lg xl:text-3xl font-semibold leading-5 xl:leading-9 text-black mb-16M'>
         Create and schedule content <span className='text-purple-500 italic'>quicker.</span> 
       </h2>
-      <img className='w-2/3 xl:w-full' src={CreatePostImg} alt="create post image" />
+      <img className='w-2/3 xl:w-full' src={CreatePostImg} alt="create post" />
     </div>
   )
 }

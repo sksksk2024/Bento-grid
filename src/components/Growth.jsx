@@ -9,7 +9,7 @@ function Growth({ className }) {
       <p className='mb-32M text-md xl:text-lg'>
         faster audience growth
       </p>
-      <img className='w-4/5' src={Audience} alt="audience" />
+      <img className='w-4/5' src={Audience} alt="audience growth" />
     </div>
   )
 }

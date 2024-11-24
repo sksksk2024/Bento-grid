@@ -12,7 +12,7 @@ function App() {
     <main className="flex flex-col xl:flex-row-reverse gap-8">
 
       {/* Main Grid Section */}
-      <div className="grid gap-8 p-16P xl:grid-cols-3 xl:grid-rows-3 xl:gap-8">
+      <div className="grid gap-8 p-16P xl:grid-cols-3 xl:grid-rows-3 xl:gap-8 xl:pl-0">
         {/* Social spans 2 columns */}
         <Social className="shadow-centered-black-soft rounded-10BR xl:col-span-2 xl:row-span-1" />
         
@@ -33,7 +33,7 @@ function App() {
       </div>
 
       {/* Secondary Grid */}
-      <div className="flex flex-col gap-8 p-16P xl:grid xl:grid-rows-2">
+      <div className="flex flex-col gap-8 p-16P xl:grid xl:grid-rows-2 xl:pr-0">
         <Quicker className='shadow-centered-black-soft rounded-10BR xl:row-start-1' />
         <AI className='shadow-centered-black-soft rounded-10BR xl:row-start-2' />
       </div>
